@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @RepositoryRestController
-@RequestMapping("/persons")
+@RequestMapping("/custom/persons")
 public class PersonController {
 
     @Autowired
@@ -26,13 +26,13 @@ public class PersonController {
     @Autowired
     private PersonResourceAssembler personAssember;
 
-    @GetMapping("/byAge")
-    public ResponseEntity<?> findByAge(
-        @RequestParam("age") Integer age,
+    @GetMapping("/byCountry")
+    public ResponseEntity<?> findByCountry(
+        @RequestParam("country") String country,
         @RequestParam("offset") int offset,
         @RequestParam("limit") int limit) {
 
-        Page<Person> page = personRepository.findByAge(age, new OffsetLimitPageable(offset, limit));
+        Page<Person> page = personRepository.findByCountry(country, new OffsetLimitPageable(offset, limit));
         return ResponseEntity.ok(pagedAssembler.toModel(page, personAssember));
     }
 }

@@ -20,6 +20,8 @@ public class Person {
 
     private String email;
 
+    private String country;
+
     private int age;
 
     private LocalDate birthDate;
