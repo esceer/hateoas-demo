@@ -12,6 +12,42 @@ create table PERSON (
 );
 
 insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
-    values (hibernate_sequence.nextval, 'Teszt Elek', 'teszt.elek@gmail.com', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+    values (hibernate_sequence.nextval, 'Teszt Elek1', 'teszt.elek@gmail.com', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
 insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
-    values (hibernate_sequence.nextval, 'John Doe', 'john.doe@gmail.com', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+    values (hibernate_sequence.nextval, 'John Doe1', 'john.doe@gmail.com', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'Teszt Elek2', 'teszt.elek@gmail.com', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'John Doe2', 'john.doe@gmail.com', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'Teszt Elek3', 'teszt.elek@gmail.com', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'John Doe3', 'john.doe@gmail.com', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'Teszt Elek4', 'teszt.elek@gmail.com', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'John Doe4', 'john.doe@gmail.com', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'Teszt Elek5', 'teszt.elek@gmail.com', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'John Doe5', 'john.doe@gmail.com', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'Teszt Elek6', 'teszt.elek@gmail.com', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'John Doe6', 'john.doe@gmail.com', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'Teszt Elek7', 'teszt.elek@gmail.com', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'John Doe7', 'john.doe@gmail.com', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'Teszt Elek8', 'teszt.elek@gmail.com', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'John Doe8', 'john.doe@gmail.com', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'Teszt Elek9', 'teszt.elek@gmail.com', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'John Doe9', 'john.doe@gmail.com', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'Teszt Elek10', 'teszt.elek@gmail.com', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+insert into PERSON (ID, NAME, EMAIL, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
+    values (hibernate_sequence.nextval, 'John Doe10', 'john.doe@gmail.com', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
