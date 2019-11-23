@@ -1,0 +1,78 @@
+openapi: 3.0.1
+info:
+  title: Person API
+  description: Person API
+  version: 1.0.0
+servers:
+  - url: /
+tags:
+  - name: person
+paths:
+  /api/persons:
+    get:
+      tags:
+        - person
+      summary: Query people
+      operationId: list
+      parameters:
+        - name: offset
+          in: query
+          required: false
+          description: offset
+          schema:
+            type: integer
+        - name: limit
+          in: query
+          required: false
+          description: limit
+          schema:
+            type: integer
+        - name: name
+          in: query
+          description: Filter expression for person name. Case insensitive, like filter.
+          schema:
+            type: string
+      responses:
+        200:
+          description: Returns the list of person based on query parameters
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  _embedded:
+                    type: object
+                    properties:
+                      persons:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/PersonListDto'
+components:
+  schemas:
+    Gender:
+      type: string
+      enum:
+        - MALE
+        - FEMALE
+        - NOT_CERTAIN
+    PersonListDto:
+      type: object
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+        country:
+          type: string
+        age:
+          type: integer
+        type:
+          $ref: '#/components/schemas/Gender'
+        _links:
+          type: object
+          properties:
+            self:
+              type: object
+              properties:
+                href:
+                  type: string

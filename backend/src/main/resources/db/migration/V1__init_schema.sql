@@ -33,22 +33,22 @@ insert into PERSON (ID, NAME, EMAIL, COUNTRY, AGE, BIRTH_DATE, BIRTH_PLACE, GEND
 insert into PERSON (ID, NAME, EMAIL, COUNTRY, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
     values (hibernate_sequence.nextval, 'John Doe5', 'john.doe@gmail.com', 'USA', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
 insert into PERSON (ID, NAME, EMAIL, COUNTRY, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
-    values (hibernate_sequence.nextval, 'Teszt Elek6', 'teszt.elek@gmail.com', 'Hungary', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+    values (hibernate_sequence.nextval, 'Teszt Elek6', 'teszt.elek@gmail.com', 'Switzerland', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
 insert into PERSON (ID, NAME, EMAIL, COUNTRY, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
-    values (hibernate_sequence.nextval, 'John Doe6', 'john.doe@gmail.com', 'USA', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+    values (hibernate_sequence.nextval, 'John Doe6', 'john.doe@gmail.com', 'Canada', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
 insert into PERSON (ID, NAME, EMAIL, COUNTRY, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
-    values (hibernate_sequence.nextval, 'Teszt Elek7', 'teszt.elek@gmail.com', 'Hungary', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+    values (hibernate_sequence.nextval, 'Teszt Elek7', 'teszt.elek@gmail.com', 'Switzerland', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
 insert into PERSON (ID, NAME, EMAIL, COUNTRY, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
-    values (hibernate_sequence.nextval, 'John Doe7', 'john.doe@gmail.com', 'USA', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+    values (hibernate_sequence.nextval, 'John Doe7', 'john.doe@gmail.com', 'Canada', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
 insert into PERSON (ID, NAME, EMAIL, COUNTRY, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
-    values (hibernate_sequence.nextval, 'Teszt Elek8', 'teszt.elek@gmail.com', 'Hungary', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+    values (hibernate_sequence.nextval, 'Teszt Elek8', 'teszt.elek@gmail.com', 'Switzerland', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
 insert into PERSON (ID, NAME, EMAIL, COUNTRY, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
-    values (hibernate_sequence.nextval, 'John Doe8', 'john.doe@gmail.com', 'USA', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+    values (hibernate_sequence.nextval, 'John Doe8', 'john.doe@gmail.com', 'Canada', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
 insert into PERSON (ID, NAME, EMAIL, COUNTRY, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
-    values (hibernate_sequence.nextval, 'Teszt Elek9', 'teszt.elek@gmail.com', 'Hungary', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+    values (hibernate_sequence.nextval, 'Teszt Elek9', 'teszt.elek@gmail.com', 'Switzerland', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
 insert into PERSON (ID, NAME, EMAIL, COUNTRY, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
-    values (hibernate_sequence.nextval, 'John Doe9', 'john.doe@gmail.com', 'USA', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+    values (hibernate_sequence.nextval, 'John Doe9', 'john.doe@gmail.com', 'Canada', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
 insert into PERSON (ID, NAME, EMAIL, COUNTRY, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
-    values (hibernate_sequence.nextval, 'Teszt Elek10', 'teszt.elek@gmail.com', 'Hungary', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
+    values (hibernate_sequence.nextval, 'Teszt Elek10', 'teszt.elek@gmail.com', 'Switzerland', 26, '2003-02-22', 'Karakószörcsög', 'MALE', 0);
 insert into PERSON (ID, NAME, EMAIL, COUNTRY, AGE, BIRTH_DATE, BIRTH_PLACE, GENDER, HAS_JOB)
-    values (hibernate_sequence.nextval, 'John Doe10', 'john.doe@gmail.com', 'USA', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);
+    values (hibernate_sequence.nextval, 'John Doe10', 'john.doe@gmail.com', 'Canada', 40, '1979-05-13', 'New Jersey', 'NOT_CERTAIN', 1);

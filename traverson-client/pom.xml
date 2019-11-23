@@ -9,7 +9,6 @@
     </parent>
 
     <artifactId>traverson-client</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -21,5 +20,14 @@
             <artifactId>spring-hateoas</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
