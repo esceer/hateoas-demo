@@ -46,7 +46,7 @@ paths:
                       persons:
                         type: array
                         items:
-                          $ref: '#/components/schemas/PersonListDto'
+                          $ref: '#/components/schemas/PersonDto'
 components:
   schemas:
     Gender:
@@ -55,7 +55,7 @@ components:
         - MALE
         - FEMALE
         - NOT_CERTAIN
-    PersonListDto:
+    PersonDto:
       type: object
       properties:
         name:

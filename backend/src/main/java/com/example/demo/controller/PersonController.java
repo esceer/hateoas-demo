@@ -10,6 +10,7 @@ import org.springframework.data.rest.webmvc.RepositoryRestController;
 import org.springframework.data.web.PagedResourcesAssembler;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -34,5 +35,10 @@ public class PersonController {
 
         Page<Person> page = personRepository.findByCountry(country, new OffsetLimitPageable(offset, limit));
         return ResponseEntity.ok(pagedAssembler.toModel(page, personAssember));
+    }
+
+    @PostMapping("/sync")
+    public ResponseEntity<?> sync() {
+        return ResponseEntity.ok("sync successful");
     }
 }
