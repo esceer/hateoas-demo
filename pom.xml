@@ -31,7 +31,7 @@
         <feign-version>9.4.0</feign-version>
         <feign-form-version>2.1.0</feign-form-version>
         <querydsl.version>4.2.1</querydsl.version>
-        <jackson-version>2.12.1</jackson-version>
+        <jackson-version>2.12.6.1</jackson-version>
         <oltu.version>1.0.2</oltu.version>
         <remote-resources-plugin.version>1.6.0</remote-resources-plugin.version>
         <swagger-core-version>2.0.0</swagger-core-version>
